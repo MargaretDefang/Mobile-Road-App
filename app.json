@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "RoadBro",
+    "slug": "roadbro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "roadbro",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash_icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.roadbro.app",
+      "supportsTablet": true,
+      "googleServicesFile": "./GoogleService-Info.plist"
+    },
+    "android": {
+      "package": "com.roadbro.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "assets/images/splash_icon.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ]
+  }
+}
